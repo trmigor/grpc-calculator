@@ -3,7 +3,7 @@
 ## Установка gRPC
 Идем в терминал. Определяем путь для установки (gRPC рекомендуется устанавливать локально, так как после установки глобально его будет крайне трудно удалить):
 ```sh
-export  MY_INSTALL_DIR=$HOME/.local
+export MY_INSTALL_DIR=$HOME/.local
 ```
 Удостоверимся, что эта директория существует, если нет — создаем:
 ```sh
@@ -11,7 +11,7 @@ mkdir -p $MY_INSTALL_DIR
 ```
 Добавим эту директорию в переменную окружения `PATH`:
 ```sh
-export  PATH="$MY_INSTALL_DIR/bin:$PATH"
+export PATH="$MY_INSTALL_DIR/bin:$PATH"
 ```
 ### Установка CMake
 * Linux
