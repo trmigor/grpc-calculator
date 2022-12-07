@@ -243,7 +243,7 @@ int main() {
 ### Клиент
 Теперь создадим клиента:
 ```sh
-vi src/server.cpp
+vi src/client.cpp
 ```
 ```cpp
 // Тут все так же:
