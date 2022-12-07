@@ -438,3 +438,9 @@ libc++abi: terminating with uncaught exception of type std::runtime_error: 3: Di
 * [Документация Protocol Buffers](https://developers.google.com/protocol-buffers/docs/reference/overview)
 * [Документация CMake](https://cmake.org/documentation/)
 
+## С чем поиграться
+Чтобы посмотреть на сгенерированный из `calculator.proto` код на разных языках, используйте компилятор Protocol Buffers, который установился вместе с gRPC:
+```sh
+protoc --cpp_out=. --java_out=. --python_out=. --csharp_out=. --kotlin_out=. --objc_out=. --php_out=. --ruby_out=. calculator.proto
+```
+
