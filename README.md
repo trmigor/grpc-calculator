@@ -438,6 +438,9 @@ libc++abi: terminating with uncaught exception of type std::runtime_error: 3: Di
 * [Документация Protocol Buffers](https://developers.google.com/protocol-buffers/docs/reference/overview)
 * [Документация CMake](https://cmake.org/documentation/)
 * [Шаблон проектирования "Строитель" (builder, билдер)](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_(%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F))
+* [Умные указатели](https://learn.microsoft.com/en-us/cpp/cpp/smart-pointers-modern-cpp?view=msvc-170)
+	* [std::shared_ptr](https://en.cppreference.com/w/cpp/memory/shared_ptr)
+	* [std::unique_ptr](https://en.cppreference.com/w/cpp/memory/unique_ptr)
 
 ## С чем поиграться
 Чтобы посмотреть на сгенерированный из `calculator.proto` код на разных языках, используйте компилятор Protocol Buffers, который установился вместе с gRPC:
