@@ -1,5 +1,6 @@
 # Подключаем необходимые пакеты
-find_package(Protobuf REQUIRED)
+# Если не работает, попробуйте заменить lib на lib64
+find_package(Protobuf REQUIRED HINTS $ENV{HOME}/.local/lib/cmake/protobuf)
 find_package(gRPC CONFIG REQUIRED)
 find_package(Threads)
 
